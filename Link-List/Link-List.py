@@ -295,7 +295,7 @@ if __name__=="__main__":
             if s.countnode==0:
                 print("Link List is Empty")
             else:
-                data=input("Enter data of node to search =")
+                data=int(input("Enter data of node to search ="))
                 res=s.search(data)
                 if res==-1:
                     print("Node not found")
