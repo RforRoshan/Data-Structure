@@ -19,9 +19,9 @@ class Binary_Tree:
             print("*"*43)
             b=input("Enter your choice= ")
             if b=="1":
-                print("Insert node left of",a)
+                print("Insert left child node of",a)
                 new_node.left=create_tree(root)
-                print("Insert node right of",a)
+                print("Insert right child node of",a)
                 new_node.right=create_tree(root)
             return new_node
 
